@@ -9,4 +9,12 @@
   </parent>
   <modelVersion>4.0.0</modelVersion>
   <artifactId>structural</artifactId>
+
+  <dependencies>
+    <dependency>
+      <groupId>org.apache.derby</groupId>
+      <artifactId>derby</artifactId>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
 </project>
